@@ -3,61 +3,78 @@
     <head>
         <meta charset="utf-8" lang="en">
         <title>Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <header>
-            <div>Logo</div>
-            <ul>
-                <li><a href="">header link one</a></li>
-                <li><a href="">header link two</a></li>
-                <li><a href="">header link three</a></li>
-            </ul>
-        </header>
         <div class="content">
+            <!-- Parte 1 -->
             <div class="hero"> 
-                <p>This is awesome</p>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
-                <button>Sign Up</button>
-                <img src="images/desired-outcome.png" alt="plants">
+                <div class="header">
+                    <p class="logo">Logo</p>
+                    <ul class="right_links subtext_header">
+                        <li><a href="">header link one</a></li>
+                        <li><a href="">header link two</a></li>
+                        <li><a href="">header link three</a></li>
+                    </ul>
+                </div>               
+                <div class="top2">
+                    <div class="hero_text">
+                        <p class="awesome">This is awesome</p>
+                        <p class="subtext_header">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+                        <button class="top_button">Sign Up</button>
+                    </div>                    
+                    <img class="heroimg" src="images/desired-outcome.png" alt="plants">                
+                </div>
+                <br>
+              
             </div>
-            <div class="choice">
-                <p>Some Random information.</p>
+            <!-- Parte 2 -->
+            <div class="rando_info">
+                <p class="info_head">Some Random Info</p>
                 <div class="images">
-                    <div class="iamge">
-                        <img src="images/proof.png" alt="">
-                        <p>some subtext under image or illustration</p>
+                    <div class="img_txt">
+                        <img class="rando_img" src="images/proof.png" alt="proof_question_mark">
+                        <p class="subtext_rando">This is some subtext under an image or an illustration</p>
                     </div>
-                    <div class="iamge">
-                        <img src="images/proof.png" alt="">
-                        <p>some subtext under image or illustration</p>
+                    <div class="img_txt">
+                        <img class="rando_img" src="images/proof.png" alt="proof_question_mark">
+                        <p class="subtext_rando">This is some subtext under an image or an illustration</p>
                     </div>
-                    <div class="iamge">
-                        <img src="images/proof.png" alt="">
-                        <p>some subtext under image or illustration</p>
+                    <div class="img_txt">
+                        <img class="rando_img" src="images/proof.png" alt="proof_question_mark">
+                        <p class="subtext_rando">This is some subtext under an image or an illustration</p>
                     </div>
-                    <div class="iamge">
-                        <img src="images/proof.png" alt="">
-                        <p>some subtext under image or illustration</p>
-                    </div>
+                    <div class="img_txt">
+                        <img class="rando_img" src="images/proof.png" alt="proof_question_mark">
+                        <p class="subtext_rando">This is some subtext under an image or an illustration</p>
+                    </div>                     
                 </div>
-            </div>
-            <div class="quote">
-                <p>This is an inspiring quote or testimonial customer and also some Lorem ipsum dolor sit amet consectetur, 
-                    adipisicing elit. Accusantium, perspiciatis. 
-                    Ut, deleniti a architecto explicabo nisi culpa eius excepturi consequuntur at nam alias est modi, 
-                    veniam quasi voluptatem iusto quaerat?</p>
-                    <p class="author">Author Name</p>
-            </div>
+            </div> 
+            <!-- Parte 3 -->
+            <div class="gray_area">
+                <p class="quote"> This is an ispiring quote, or a testimonial
+                    from a customer. Maybe just filling up space,
+                    or maybe people will actually read it. Who knows?
+                    All I know is that I hope it looks nice.
+                </p>
+                <p class="author">-Me, Becuase I added stuff</p>
+            </div> 
+            <!-- Parte 4 -->
             <div class="call">
-                <div>
-                    <p>Call to action is time</p>
-                    <p>Sign up for the product and that kind of stuff</p>
-                    <button>Sign Up</button>
+                <div class="bloque">
+                    <div>
+                        <p class="logo">Call to Action. It's time!</p>
+                        <p class="subtext_header">Sign up for our product by clicking the button in the right!</p>
+                    </div>
+                    <button class="btn_call">Sign Up</button>
                 </div>
+            </div>
+            <!-- Parte 5 -->
+            <div class="footer">
+                Copyright &copy; The Odin Project 2021
             </div>
         </div>
-        <footer>
-            Copyright &copy; The Odin Project 2021
-        </footer>
+
     </body>
 </html>
